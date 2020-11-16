@@ -17,6 +17,8 @@
     'qweb': [],
     'data': ['views/linkestatic.xml',   
     ],
+    'images': ['static/description/banner.png'],
+    'license': 'AGPL-3',
     'auto_install': True,
     'installable': True,
 }
