@@ -20,6 +20,5 @@
     ],
      'images': ['static/description/banner.png'],
      'license': 'AGPL-3',
-     'application': True,
     'post_init_hook': 'load_translations',
 }
