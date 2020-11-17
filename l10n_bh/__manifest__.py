@@ -2,7 +2,7 @@
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Sudan- Accounting-Muhlhel-standard',
+    'name': 'Bahrain- Accounting-Muhlhel-standard',
     'version': '13.0.0.0',
     'author': "Mali, MuhlhelITS",
     'website': "http://natigroup.biz",
