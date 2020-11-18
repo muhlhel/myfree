@@ -1,0 +1,1061 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nati_l10n_iq
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20201112\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-16 20:39+0000\n"
+"PO-Revision-Date: 2020-11-16 23:40+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 1.8\n"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_122002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.122002_account_Muhlhel
+msgid "(INV)  Ready Made Materials"
+msgstr "مخزون المواد تامة الصنع"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_122001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.122001_account_Muhlhel
+msgid "(INV) RAW Materials"
+msgstr "مخزون المواد الأولية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_122004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.122004_account_Muhlhel
+msgid "(INV) Transfer Products"
+msgstr "حساب النقل بين مخزون المنتجات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_122003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.122003_account_Muhlhel
+msgid "(INV) Transfer RAW"
+msgstr "حساب النقل بين مخزون الخام"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_122005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.122005_account_Muhlhel
+msgid "(INV) Transfer Stock Production"
+msgstr "حساب النقل بين المخزون والإنتاج"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_123006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.123006_account_Muhlhel
+msgid "Accounts Payable with Debit Balances"
+msgstr "حسابات دائنة بأرصدة مدينة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_114001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.114001_account_Muhlhel
+msgid "Accum Buildings"
+msgstr "تراكم اهلاك المباني والانشاءات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_114002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.114002_account_Muhlhel
+msgid "Accum Cars"
+msgstr "تراكم اهلاك السيارات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_114006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.114006_account_Muhlhel
+msgid "Accum Computer and software"
+msgstr "تراكم اهلالك كمبيوترات وأنظمة مشابهه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_114005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.114005_account_Muhlhel
+msgid "Accum Electrical and electronic devices"
+msgstr "تراكم اهلاك أجهزة كهربائية والكترونية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_114003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.114003_account_Muhlhel
+msgid "Accum Furniture"
+msgstr "تراكم اهلاك الأثاث والمفروشات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_114004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.114004_account_Muhlhel
+msgid "Accum Machines and equipments"
+msgstr "تراكم اهلاك معدات النشاط"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_114
+msgid "Accumulated Depreciation  "
+msgstr "مجمع اهلاك"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_342
+msgid "Actual Rent"
+msgstr "ايجارات فعلية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_311003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.311003_account_Muhlhel
+msgid "Additional Work Expenses"
+msgstr "مصروفات عمل إضافي"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_233003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.233003_account_Muhlhel
+msgid "Advance Rental Income "
+msgstr "إيرادات أيجارات مدفوعة مقدما"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_116002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.116002_account_Muhlhel
+msgid "Advertising and Promotion"
+msgstr "حملة إعلانية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_111001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.111001_account_Muhlhel
+msgid "Agricultural Lands"
+msgstr "أراضي زراعية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_1
+msgid "Assets"
+msgstr "الأصول"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_432002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.432002_account_Muhlhel
+msgid "Assets replacement income"
+msgstr "أيرادات استبدال أصول"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_112
+msgid "Autos and Trucks"
+msgstr "وسائل نقل وانتقال"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_352004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.352004_account_Muhlhel
+msgid "Bad Debts  "
+msgstr "ديون معدومة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322010_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322010_account_Muhlhel
+msgid "Bank Service Charge"
+msgstr "عمولات ومصروفات مصرفية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_1212
+msgid "Banks"
+msgstr "البنوك"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_232006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.232006_account_Muhlhel
+msgid "Bills Due"
+msgstr "كهرباء وفواتير مستحقة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_123003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.123003_account_Muhlhel
+msgid "Branches Company"
+msgstr "الشركات والفروع التابعة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_342002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.342002_account_Muhlhel
+msgid "Building Rent"
+msgstr "إيجار مباني"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_111002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.111002_account_Muhlhel
+msgid "Buildings"
+msgstr "مباني سكنية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_32
+msgid "Business Activity Requirements"
+msgstr "مستلزمات النشاط التجاري"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_311
+msgid "Cach Payroll"
+msgstr "أجور نقدية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_423
+msgid "Capital Income"
+msgstr "ايرادات رأسماليه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_352002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.352002_account_Muhlhel
+msgid "Capital loss"
+msgstr "خسائر رأسمالية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_112001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.112001_account_Muhlhel
+msgid "Cars"
+msgstr "سيارات "
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_121
+msgid "Cash and cash equivalents"
+msgstr "النقد والنقد المكافئ"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_1211
+msgid "Cash in hand"
+msgstr "صناديق النقدية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_422
+msgid "Casual income"
+msgstr "ايرادات عرضيه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_351002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.351002_account_Muhlhel
+msgid "Charity donations and charity"
+msgstr "تبرعات خيرية وصدقات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_232
+msgid "Collections and Deductions"
+msgstr "التحصيلات والاستقطاعات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_321
+msgid "Commodity Accessories"
+msgstr "مستلزمات سلعية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_311005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.311005_account_Muhlhel
+msgid "Compensation Expenses"
+msgstr "مصروفات تعويضات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_352001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.352001_account_Muhlhel
+msgid "Compensation to others and fines"
+msgstr "تعويضات للغير وغرامات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_352
+msgid "Compentsatiry Damages"
+msgstr "تعويضات وغرامات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341004_account_Muhlhel
+msgid "Consumption of activity equipment"
+msgstr "اهلاك معدات النشاط"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_312004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.312004_account_Muhlhel
+msgid "Continuing Education Expenses"
+msgstr "مصروفات تعليم مستمر"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_351
+msgid "Contributions"
+msgstr "تبرعات واعانات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_331001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.331001_account_Muhlhel
+msgid "Cost of Goods"
+msgstr "تكاليف بضاعة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_12
+msgid "Current Assets  "
+msgstr "الأصول المتداولة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_23
+msgid "Current Liabilities  "
+msgstr "الخصوم المتداولة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_34
+msgid "Current Transfers"
+msgstr "المصروفات التحويلية الجارية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_35
+msgid "Current deductible expenses"
+msgstr "المصروفات الجارية التخصيصية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_233001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.233001_account_Muhlhel
+msgid "Customer Deposits"
+msgstr "ايداعات عملاء"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_233002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.233002_account_Muhlhel
+msgid "Customer Insurance"
+msgstr "تأمينات عملاء"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_331003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.331003_account_Muhlhel
+msgid "Customs Costs"
+msgstr "تكاليف جمارك"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_422002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.422002_account_Muhlhel
+msgid "Deductions for demurrages Revenues "
+msgstr "ايرادات استقطاعات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_117001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.117001_account_Muhlhel
+msgid "Deferred Income Tax "
+msgstr "ضريبة الدخل المؤجلة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_117
+msgid "Deferred Tax"
+msgstr "الضرائب المؤجلة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_116
+msgid "Delaeyd Revenue Expenses"
+msgstr "نفقات ايرادية مؤجلة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_341
+msgid "Depreciation"
+msgstr "أعباء الأهلاك والإستهلاك"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341001_account_Muhlhel
+msgid "Depreciation of buildings and constructions"
+msgstr "اهلاك المباني والانشاءات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341005_account_Muhlhel
+msgid "Depreciation of electrical and electronic equipment"
+msgstr "اهلاك أجهزة كهربائية والكترونية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341003_account_Muhlhel
+msgid "Depreciation of furniture and furnishings"
+msgstr "اهلاك الأثاث والمفروشات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341002_account_Muhlhel
+msgid "Depreciation of vehicles and means of transport"
+msgstr "اهلاك السيارات ووسائل النقل"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341006_account_Muhlhel
+msgid "DepreciationComputers and systems are similar"
+msgstr "اهلالك كمبيوترات وأنظمة مشابهه"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_221
+msgid "Distributed Profits and Losses"
+msgstr "أرباح وخسائر موزعة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_311004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.311004_account_Muhlhel
+msgid "EXPENSES OF PROCESSES"
+msgstr "مصروفات مكأفات تشجيعية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_113003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.113003_account_Muhlhel
+msgid "Electrical and Electronic Devices"
+msgstr "أجهزة كهربائية والكترونية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322006_account_Muhlhel
+msgid "Electricity and Water"
+msgstr "الإنارة والمياه"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_1213
+msgid "Electronic Payment cards"
+msgstr "بطاقات الدفع الالكترونية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_123002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.123002_account_Muhlhel
+msgid "Employees Imprest"
+msgstr "سلف وعهد الموظفين"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_311002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.311002_account_Muhlhel
+msgid "Expense Expenses"
+msgstr "مصروفات اكراميات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_3
+msgid "Expenses"
+msgstr "المصروفات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_234001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.234001_account_Muhlhel
+msgid "Falling Inventory Prices"
+msgstr "مخصصات هبوط أسعار المخزون"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_115001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.115001_account_Muhlhel
+msgid "Famous brand"
+msgstr "شهرة الأعمال التجارية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_11
+msgid "Fixed assets"
+msgstr "الأصول الثابته"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_312002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.312002_account_Muhlhel
+msgid "Food Expenses"
+msgstr "مصروفات تغذية وترفيه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_121202_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.121202_account_Muhlhel
+msgid "Foreign Currency Bank"
+msgstr "بنك عملة أجنبية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_121102_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.121102_account_Muhlhel
+msgid "Foreign Currency Cach"
+msgstr "صندوق عملة اجنبية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_312
+msgid "Fringe Benefits And wages "
+msgstr "أجور ومزايا عينية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_321001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.321001_account_Muhlhel
+msgid "Fuel And Oil store"
+msgstr "وقود وزيت ومحروقات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_113001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.113001_account_Muhlhel
+msgid "Furnitures"
+msgstr "أثاث ومفروشات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_113
+msgid "Furnitures and Equipments"
+msgstr "الاثاث والتجهيزات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_411004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.411004_account_Muhlhel
+msgid "Gifts"
+msgstr "هدايا وعينات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_321003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.321003_account_Muhlhel
+msgid "Handling Charges"
+msgstr "مواد تعبئة وتغليف"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_113004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.113004_account_Muhlhel
+msgid "Hardware and Software"
+msgstr "كمبيوترات وأنظمة مشابهه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_311006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.311006_account_Muhlhel
+msgid "Help And Aid"
+msgstr "مساعدات ومعونات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_312001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.312001_account_Muhlhel
+msgid "Housing expenses"
+msgstr "مصروفات سكن"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_352003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.352003_account_Muhlhel
+#: model:account.group,name:nati_l10n_iq.sa_group_41
+msgid "Impairment losses on goodwill"
+msgstr "إيرادات النشاط التجاري"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_352005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.352005_account_Muhlhel
+msgid "Income Tax"
+msgstr "ضريبة دخل الأرباح"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_33
+msgid "Income costs"
+msgstr "تكاليف الدخل"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_125
+msgid "Income due"
+msgstr "الدخل المستحق"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_233
+msgid "Insurance Income and Prepayments"
+msgstr "إيرادات تأمينية والمدفوعات مقدما"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_115
+msgid "Intangible Assets  "
+msgstr "أصول معنوية غير ملموسة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322008_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322008_account_Muhlhel
+msgid "Internet and network"
+msgstr "اشتراكات انترنت وشبكات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_342001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.342001_account_Muhlhel
+msgid "Lands Rent"
+msgstr "إيجار أراضي"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_111
+msgid "Lands and Buildings"
+msgstr "اراضي ومباني"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_421
+msgid "League revenues"
+msgstr "ايرادات دوريه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322005_account_Muhlhel
+msgid "Leasing (plant and equip)"
+msgstr "استئجار آلات ومعدات ووسائط نقل"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_2
+msgid "Liabilities"
+msgstr "الإلتزامات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_account_arabic_coa_general_liquidity_transfer
+#: model:account.account.template,name:nati_l10n_iq.account_arabic_coa_general_liquidity_transfer
+msgid "Liquidity Transfer"
+msgstr "تحويل جاري"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322001_account_Muhlhel
+msgid "Maintenance services expenses"
+msgstr "مصروفات خدمات صيانة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_121303_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.121303_account_Muhlhel
+msgid "Master Card"
+msgstr "ماستر كارد"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_312003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.312003_account_Muhlhel
+msgid "Medication Expenses"
+msgstr "مصروفات علاج"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_331
+msgid "Net purchases and products sold"
+msgstr "صافي المشتريات والمنتجات المباعة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_411002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.411002_account_Muhlhel
+#: model:account.group,name:nati_l10n_iq.sa_group_411
+msgid "Net sales of goods for sale"
+msgstr "صافي مبيعات بضائع بغرض البيع"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_412
+msgid "Net sales of services for sale"
+msgstr "صافي مبيعات خدمات بغرض البيع"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_321004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.321004_account_Muhlhel
+msgid "Office Supplies"
+msgstr "أدوات مكتبية وقرطاسية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322002_account_Muhlhel
+msgid "Operating Expenses"
+msgstr "مصروفات تشغيل لدى الغير"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_422001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.422001_account_Muhlhel
+msgid "Operating income for others"
+msgstr "ايرادات تشغيل للغير"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_116001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.116001_account_Muhlhel
+msgid "Organization Expense"
+msgstr "نفقات التأسيس"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322012_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322012_account_Muhlhel
+msgid "Other Commission"
+msgstr "عمولات مختلفة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_123007_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.123007_account_Muhlhel
+msgid "Other Receivables"
+msgstr "ذمم مدينة أخرى"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_231002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.231002_account_Muhlhel
+msgid "Other payables"
+msgstr "ذمم دائنة أخرى"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_221001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.221001_account_Muhlhel
+msgid "Owners Profits 1"
+msgstr "أرباح موزعة للمالك 1"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_221002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.221002_account_Muhlhel
+msgid "Owners Profits 2"
+msgstr "أرباح موزعة للمالك 2 "
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_211001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.211001_account_Muhlhel
+msgid "Owners share 1"
+msgstr "رأس مال المالك 1"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_211002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.211002_account_Muhlhel
+msgid "Owners share 2"
+msgstr "رأس مال المالك 2"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_115002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.115002_account_Muhlhel
+msgid "Patents"
+msgstr "براءات الاختراع"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_121301_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.121301_account_Muhlhel
+msgid "PayPal"
+msgstr "حساب باي بال"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_231
+msgid "Payables"
+msgstr "الذمم الدائنة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_231001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.231001_account_Muhlhel
+msgid "Payables Accounts"
+msgstr "حسابات الدائنون"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_31
+msgid "Payroll"
+msgstr "الأجور"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_232002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.232002_account_Muhlhel
+msgid "Payroll Taxes"
+msgstr "ضرائب الأجور المستقطعة والمستحقة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_422003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.422003_account_Muhlhel
+msgid "Penalties and absence of workers"
+msgstr "ايرادات جزاءات وغياب العمال"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322009_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322009_account_Muhlhel
+msgid "Permits and licenses"
+msgstr "تصاريح وتراخيص"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_124
+msgid "Prepaid Expenses "
+msgstr "مصروفات جارية مدفوعة مقدما"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_124001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.124001_account_Muhlhel
+msgid "Prepaid Rents"
+msgstr "ايجارات مدفوعة مقدما"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_124002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.124002_account_Muhlhel
+msgid "Prepaid Wages"
+msgstr "أجور مدفوعة مقدما"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_331004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.331004_account_Muhlhel
+msgid "Production Costs"
+msgstr "تكاليف انتاج"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_125001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.125001_account_Muhlhel
+msgid "Profit on others"
+msgstr "أرباح لدى الغير"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_222
+msgid "Profits Held"
+msgstr "أرباح محتجزة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_22
+msgid "Profits and Losses"
+msgstr "الأرباح والخسائر"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_222001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.222001_account_Muhlhel
+msgid "Profits and Losses Current year"
+msgstr "أرباح وخسائر غيز موزعة السنة الحالية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_222002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.222002_account_Muhlhel
+msgid "Profits and Losses Previous years"
+msgstr "أرباح محتجزة للسنوات السابقة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_21
+msgid "Property Rights"
+msgstr "حقوق الملكية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_421001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.421001_account_Muhlhel
+msgid "Property rental income"
+msgstr "ايرادات تأجيرعقاريه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_234002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.234002_account_Muhlhel
+msgid "Provision Doubtful Debts"
+msgstr "مخصص الديون المشكوك في تحصيلها"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_234
+msgid "Provisions"
+msgstr "المخصصات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322003_account_Muhlhel
+msgid "Publicity and Advertising"
+msgstr "دعاية وإعلان وعلاقات عامة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_232005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.232005_account_Muhlhel
+msgid "Purchase taxes Due"
+msgstr "ضرائب المشتريات المستحقة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_331006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.331006_account_Muhlhel
+msgid "Purchases Discounts"
+msgstr "خصومات المشتريات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_331005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.331005_account_Muhlhel
+msgid "Purchases Returns"
+msgstr "مردودات المشتريات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_123
+msgid "Receivables"
+msgstr "الذمم المدينة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_123001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.123001_account_Muhlhel
+msgid "Receivables Accounts"
+msgstr "حسابات المدينون"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_123004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.123004_account_Muhlhel
+msgid "Reimbursable Income taxes"
+msgstr "ضرائب مدخلات قابلة للرد"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_123005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.123005_account_Muhlhel
+msgid "Reimbursable outcome taxes"
+msgstr "ضرائب مخرجات قابلة للرد"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_421002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.421002_account_Muhlhel
+msgid "Rental income of ATM areas"
+msgstr "ايرادات تاجير مساحات الصراف الالي"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_232007_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.232007_account_Muhlhel
+msgid "Rents Due"
+msgstr "ايجارات مستحقة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341008_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341008_account_Muhlhel
+msgid "Residues and damaged stock of finished materials"
+msgstr "بقايا وتالف مخزون المواد تامة الصنع"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_341007_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.341007_account_Muhlhel
+msgid "Residues and damaged stock of raw materials"
+msgstr "بقايا وتالف مخزون المواد الأولية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_412002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.412002_account_Muhlhel
+msgid "Returns of sales services"
+msgstr "مردودات مبيعات خدمات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_42
+msgid "Revenue earned"
+msgstr "الايرادات المكتسبه"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_422005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.422005_account_Muhlhel
+msgid "Revenue from compensation and fines to others"
+msgstr "إيرادات تعويضات وغرامات على الغير"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_421003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.421003_account_Muhlhel
+msgid "Revenue of advertising space"
+msgstr "ايرادات مساحات اعلانات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_422006_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.422006_account_Muhlhel
+msgid "Revenue of the difference"
+msgstr "فروق العمله"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_4
+msgid "Revenues"
+msgstr "الدخل (الإيرادات)"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_311001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.311001_account_Muhlhel
+msgid "Salaries Expenses "
+msgstr "مصروفات رواتب "
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_232001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.232001_account_Muhlhel
+msgid "Salary and Allowance"
+msgstr "رواتب واجور مستحقة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_411001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.411001_account_Muhlhel
+msgid "Sales  total "
+msgstr "مبيعات بضاعة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322011_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322011_account_Muhlhel
+msgid "Sales Commision"
+msgstr "عمولات مبيعات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_411003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.411003_account_Muhlhel
+msgid "Sales Permits"
+msgstr "مسموحات مبيعات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_423001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.423001_account_Muhlhel
+msgid "Sales revenue of assets"
+msgstr "ايرادات مبيعات أصول"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_232004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.232004_account_Muhlhel
+msgid "Sales taxes Due"
+msgstr "ضرائب المبيعات المستحقة"
+
+#. module: nati_l10n_iq
+#: model:account.chart.template,name:nati_l10n_iq.account_arabic_coa_general
+msgid "Saudi Muhlhel - Chart of Accounts"
+msgstr "دليل المحاسبة السعودي بواسطة مهلهل"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_412001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.412001_account_Muhlhel
+msgid "Service Revenues"
+msgstr "مبيعات خدمات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_422004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.422004_account_Muhlhel
+msgid "Service Revenues "
+msgstr "إيرادات عمولات"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_322
+msgid "Service Supplies"
+msgstr "مستلزمات خدمية"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_211
+msgid "Share Capital"
+msgstr "رأس مال الشركاء"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_331002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.331002_account_Muhlhel
+msgid "Shipping delivery Costs"
+msgstr "تكاليف شحن وتوصيل وتفريغ"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_312005_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.312005_account_Muhlhel
+msgid "Social Insurance "
+msgstr "تأمينات اجتماعية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_115004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.115004_account_Muhlhel
+msgid "Software and System"
+msgstr "الأنظمة والبرامج"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_113002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.113002_account_Muhlhel
+msgid "Special Equipments"
+msgstr "معدات وأجهزة النشاط"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_232003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.232003_account_Muhlhel
+msgid "Stock Staff"
+msgstr "مساهمات العاملين المستقطعة والمستحقة"
+
+#. module: nati_l10n_iq
+#: model:account.group,name:nati_l10n_iq.sa_group_122
+msgid "Stores (Inventory)"
+msgstr "المخزون"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322013_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322013_account_Muhlhel
+msgid "Subscription"
+msgstr "تسهيلات حكومية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_351003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.351003_account_Muhlhel
+msgid "Subsidy"
+msgstr "اعانات للغير"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322007_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322007_account_Muhlhel
+msgid "Telephone expenses"
+msgstr "مصروفات هاتف واتصالات"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_115003_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.115003_account_Muhlhel
+msgid "Trademarks"
+msgstr "العلامات التجارية"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_322004_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.322004_account_Muhlhel
+msgid "Transportation Charges"
+msgstr "نقل وانتقال"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_112002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.112002_account_Muhlhel
+msgid "Trucks"
+msgstr "باصات نقل موظفين"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_321002_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.321002_account_Muhlhel
+msgid "Various tool parts"
+msgstr "قطع غيار وأدوات مختلفة"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_121302_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.121302_account_Muhlhel
+msgid "Visa Card"
+msgstr "فيزا كارد"
+
+#. module: nati_l10n_iq
+#: model:account.account,name:nati_l10n_iq.1_351001_account_Muhlhel
+#: model:account.account.template,name:nati_l10n_iq.351001_account_Muhlhel
+msgid "Zakat imposed"
+msgstr "الزكاة المفروضة"

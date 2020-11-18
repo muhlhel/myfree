@@ -1,0 +1,53 @@
+id,code_prefix,name,parent_id/id
+1_account_Muhlhel,1,Assets,FALSE
+11_account_Muhlhel,11,Fixed assets,1_account_Muhlhel
+111_account_Muhlhel,111,Lands and Buildings,11_account_Muhlhel
+112_account_Muhlhel,112,Autos and Trucks,11_account_Muhlhel
+113_account_Muhlhel,113,Furnitures and Equipments,11_account_Muhlhel
+114_account_Muhlhel,114,Accumulated Depreciation  ,11_account_Muhlhel
+115_account_Muhlhel,115,Intangible Assets  ,11_account_Muhlhel
+116_account_Muhlhel,116,Delaeyd Revenue Expenses,11_account_Muhlhel
+117_account_Muhlhel,117,Deferred Tax,11_account_Muhlhel
+12_account_Muhlhel,12,Current Assets  ,1_account_Muhlhel
+121_account_Muhlhel,121,Cash and cash equivalents,12_account_Muhlhel
+1211_account_Muhlhel,1211,Cash in hand,121_account_Muhlhel
+1212_account_Muhlhel,1212,Banks,121_account_Muhlhel
+1213_account_Muhlhel,1213,Electronic Payment cards,121_account_Muhlhel
+122_account_Muhlhel,122,Stores (Inventory),12_account_Muhlhel
+123_account_Muhlhel,123,Receivables,12_account_Muhlhel
+124_account_Muhlhel,124,Prepaid Expenses ,12_account_Muhlhel
+125_account_Muhlhel,125,Income due,12_account_Muhlhel
+2_account_Muhlhel,2,Liabilities,FALSE
+21_account_Muhlhel,21,Property Rights,2_account_Muhlhel
+211_account_Muhlhel,211,Share Capital,21_account_Muhlhel
+22_account_Muhlhel,22,Profits and Losses,2_account_Muhlhel
+221_account_Muhlhel,221,Distributed Profits and Losses,22_account_Muhlhel
+222_account_Muhlhel,222,Profits Held,22_account_Muhlhel
+23_account_Muhlhel,23,Current Liabilities  ,2_account_Muhlhel
+231_account_Muhlhel,231,Payables,23_account_Muhlhel
+232_account_Muhlhel,232,Collections and Deductions,23_account_Muhlhel
+233_account_Muhlhel,233,Insurance Income and Prepayments,23_account_Muhlhel
+234_account_Muhlhel,234,Provisions,23_account_Muhlhel
+3_account_Muhlhel,3,Expenses,FALSE
+31_account_Muhlhel,31,Payroll,3_account_Muhlhel
+311_account_Muhlhel,311,Cach Payroll,31_account_Muhlhel
+312_account_Muhlhel,312,Fringe Benefits And wages ,31_account_Muhlhel
+32_account_Muhlhel,32,Business Activity Requirements,3_account_Muhlhel
+321_account_Muhlhel,321,Commodity Accessories,32_account_Muhlhel
+322_account_Muhlhel,322,Service Supplies,32_account_Muhlhel
+33_account_Muhlhel,33,Income costs,3_account_Muhlhel
+331_account_Muhlhel,331,Net purchases and products sold,33_account_Muhlhel
+34_account_Muhlhel,34,Current Transfers,3_account_Muhlhel
+341_account_Muhlhel,341,Depreciation,34_account_Muhlhel
+342_account_Muhlhel,342,Actual Rent,34_account_Muhlhel
+35_account_Muhlhel,35,Current deductible expenses,3_account_Muhlhel
+351_account_Muhlhel,351,Contributions,35_account_Muhlhel
+352_account_Muhlhel,352,Compentsatiry Damages,35_account_Muhlhel
+4_account_Muhlhel,4,Revenues,FALSE
+41_account_Muhlhel,41,Impairment losses on goodwill,4_account_Muhlhel
+411_account_Muhlhel,411,Net sales of goods for sale,41_account_Muhlhel
+412_account_Muhlhel,412,Net sales of services for sale,41_account_Muhlhel
+42_account_Muhlhel,42,Revenue earned,4_account_Muhlhel
+421_account_Muhlhel,421,League revenues,42_account_Muhlhel
+422_account_Muhlhel,422,Casual income,42_account_Muhlhel
+423_account_Muhlhel,423,Capital Income,42_account_Muhlhel
