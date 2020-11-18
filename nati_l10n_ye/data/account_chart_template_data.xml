@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
         <record id="account_arabic_coa_general" model="account.chart.template">
-            <field name="name">Yemen Muhlhel - Chart of Accounts</field>
+            <field name="name">Chart of Accounts</field>
             <field name="bank_account_code_prefix">1212</field>
             <field name="cash_account_code_prefix">1211</field>
             <field name="transfer_account_code_prefix">121210</field>
