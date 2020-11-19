@@ -17,7 +17,7 @@ english and arabic lable,for both LTR and RTL
     'currency': 'USD',
     'category': 'Extra Tools',
     'version': '14.0.0.0',
-    'depends': ['base','nati_arabic_font'],
+    'depends': ['base'],
     'qweb': [],
     'data': ['views/main_inherit.xml',
              'views/styleslink.xml',
