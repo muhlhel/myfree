@@ -9,7 +9,7 @@
         Change the defult arabic font of the all interfaces with a beautiful one preferred by the Arabic user
  ,
     """,
-    'author': "Mali ,MuhlhelITS",
+    'author': "Mali, MuhlhelITS",
     'website': "http://natigroup.biz",
     'category': 'Localization',
     'version': '14.0.0.0',

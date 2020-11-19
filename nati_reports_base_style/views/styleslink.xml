@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data> 
+		 <template id="nati_report_report_assets_common"  inherit_id="web.report_assets_common">
+            <xpath expr="." position="inside">
+                <link rel='stylesheet' href="/nati_reports_base_style/static/src/scss/variables.scss" type="text/scss"/>
+                <link rel='stylesheet' href="/nati_reports_base_style/static/src/scss/invoice_style.scss" type="text/scss"/>
+            </xpath>
+        </template>
+	</data>
+</openerp>
