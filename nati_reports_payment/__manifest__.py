@@ -12,6 +12,7 @@ english and arabic lable,for both LTR and RTL
     """,
     'author': "Mali, MuhlhelITS",
     'website': "http://natigroup.biz",
+    'license': 'OPL-1',
     'price': 120.00,
     'currency': 'USD',
     'license': 'OPL-1',
@@ -23,6 +24,5 @@ english and arabic lable,for both LTR and RTL
              'views/report_payment_receipt_modern.xml',
     ],
     'images': ['static/description/banner.png'],
-    'license': 'AGPL-3',
     'installable': True,
 }
