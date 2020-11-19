@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+  
+     
+      <report
+            string="Payment Receipt Modern"
+            menu="False"
+            id="custom_action_report_payment_receipt"
+            model="account.payment"
+            report_type="qweb-pdf"
+            paperformat="nati_reports_base_style.paperformat_NatiA4"
+            name="nati_reports_payment.report_payment_receipt"
+            file="nati_reports_payment.report_payment_receipt"
+            print_report_name="'payment Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+            
+        />
+   
+    
+    <template id="report_payment_receipt" inherit_id="account.report_payment_receipt">          
+                <xpath expr="//t[@t-call='account.report_payment_receipt_document']" position="replace" >
+                    <t t-call="web.html_container">
+                        <t t-foreach="docs" t-as="o">
+                            <t t-call="nati_reports_payment.modern_report_payment_receipt_document" t-lang="o.partner_id.lang"/>
+                        </t>
+                     </t>
+                 </xpath>
+    </template>
+  </data>
+</odoo>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <data>
+
+         <report
+            string="Quotation / Order modern"
+            menu="False"
+            id="custom_action_report_SO"
+            model="sale.order"
+            report_type="qweb-pdf"
+            paperformat="nati_reports_base_style.paperformat_NatiA4"
+            name="nati_reports_sales.custom_report_saleorder"
+            file="nati_reports_sales.custom_report_saleorder"
+            print_report_name="(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or 'Order - %s' % (object.name)"
+            />
+
+          <template id="custom_report_saleorder" inherit_id="sale.report_saleorder">          
+             <xpath expr="//t[@t-call='web.html_container']" position="replace">
+                    <t t-call="web.html_container">
+                        <t t-foreach="docs" t-as="doc">
+                            <t t-call="nati_reports_sales.modern_report_SO_document" t-lang="doc.partner_id.lang"/>
+                        </t>
+                     </t>
+                 </xpath>
+          </template>
+          
+
+          
+   
+  </data>
+</odoo>
