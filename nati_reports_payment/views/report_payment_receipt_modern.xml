@@ -102,7 +102,7 @@
 
         <br/>
 
-        <t t-if="o.reconciled_invoices_count>0">
+        <t t-if="o.reconciled_bills_count or o.reconciled_invoices_count or o.reconciled_statements_count">
 
           <table class="table table-sm">
             <thead>

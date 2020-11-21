@@ -81,11 +81,11 @@
 
 
             </div>
-            <t  t-if="'lat_address' in o.partner_id.fields_get()">
-            <t t-if="o.partner_id.lat_address">
+            <t  t-if="'partner_latitude' in o.partner_id.fields_get()">
+            <t t-if="o.partner_id.partner_latitude">
 
               <div class="col-2">
-                <t t-set="QRmap" t-value="'http://maps.google.com/maps?q=%s,%s' % (o.partner_id.lat_address,o.partner_id.lang_address)"/>
+                <t t-set="QRmap" t-value="'http://maps.google.com/maps?q=%s,%s' % (o.partner_id.partner_latitude,o.partner_id.partner_longitude)"/>
 
                 <img class="m-0"  t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR',QRmap, 120, 120)"/>
               </div>
@@ -213,8 +213,8 @@
             <div id="total" class="row">
               <div class="col-12">
                 <table class="table">
-                  <t t-if="display_discount">
-                    <t t-set="totalwithout_discount" t-value="o.amount_discount + o.amount_untaxed "/>
+                  <t t-if="Tempdisplay_discount">
+                    <t t-set="amount_discount" t-value="o.amount_undiscounted - o.amount_untaxed "/>
                     <tr class="border-black o_subtotal" style="">
                       <td>
                         <strong>Total Amount</strong>
@@ -223,7 +223,7 @@
                         <strong>Total AmountEn</strong>
                       </td>
                       <td class="text-right o_price_total">
-                        <span t-esc="totalwithout_discount"
+                        <span t-field="o.amount_undiscounted"
                          t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: o.currency_id}"/>
                       </td>
                     </tr>
@@ -235,7 +235,7 @@
                         <strong>DiscountEN</strong>
                       </td>
                       <td class="text-right">
-                        <span t-field="o.amount_discount"/>
+                         <span t-esc="amount_discount"/>
                       </td>
                     </tr>
 
@@ -270,7 +270,7 @@
                         <td>
                           <strong t-esc="amount_by_group[0]"/>
                           <sp>&#032;</sp>
-                          
+
                           <span>
                             &amp;nbsp;<span>on</span>
                             <t t-esc="amount_by_group[4]"/>

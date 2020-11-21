@@ -73,12 +73,12 @@
                 </div>
               </div>
             </div>
-            <t  t-if="'lat_address' in doc.partner_id.fields_get()">
-              <t t-if="doc.partner_id.lat_address">
+            <t  t-if="'partner_latitude' in doc.partner_id.fields_get()">
+              <t t-if="doc.partner_id.partner_latitude">
 
                 <div class="col-2">
                   <!--  <t t-set="QRmap" t-value="'http://maps.google.com/maps?q=%s' % (o.partner_id.street)"/> -->
-                  <t t-set="QRmap" t-value="'http://maps.google.com/maps?q=%s,%s' % (doc.partner_id.lat_address,doc.partner_id.lang_address)"/>
+                  <t t-set="QRmap" t-value="'http://maps.google.com/maps?q=%s,%s' % (doc.partner_id.partner_latitude,doc.partner_id.partner_longitude)"/>
 
                   <img class="m-0"  t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR',QRmap, 120, 120)"/>
                 </div>
@@ -203,7 +203,7 @@
               <div t-attf-class="#{'col-12' if report_type != 'html' else 'col-sm-7 col-md-5'} ml-auto">
                 <table class="table table-sm">
                   <t t-if="display_discount">
-                    <t t-set="totalwithout_discount" t-value="doc.amount_discount + doc.amount_untaxed "/>
+                    <t t-set="amount_discount" t-value="doc.amount_undiscounted - doc.amount_untaxed "/>
                     <tr class="border-black o_subtotal" style="">
                       <td name="td_amount_untaxed_label">
                         <strong>Total Amount</strong>
@@ -212,7 +212,7 @@
                         <strong>Total AmountEn</strong>
                       </td>
                       <td class="text-right o_price_total">
-                        <span t-esc="totalwithout_discount"
+                        <span t-field="doc.amount_undiscounted"
                          t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: doc.currency_id}"/>
                       </td>
                     </tr>
@@ -224,7 +224,7 @@
                         <strong>DiscountEN</strong>
                       </td>
                       <td class="text-right">
-                        <span t-field="doc.amount_discount"/>
+                        <span t-esc="amount_discount"/>
                       </td>
                     </tr>
                   </t>

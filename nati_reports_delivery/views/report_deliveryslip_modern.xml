@@ -46,10 +46,10 @@
 
                 </div>
               </div>
-              <t  t-if="'lat_address' in o.partner_id.fields_get()">
-                <t t-if="o.partner_id.lat_address">
+              <t  t-if="'partner_latitude' in o.partner_id.fields_get()">
+                <t t-if="o.partner_id.partner_latitude">
                   <div class="col-2">
-                    <t t-set="QRmap" t-value="'http://maps.google.com/maps?q=%s,%s' % (o.partner_id.lat_address,o.partner_id.lang_address)"/>
+                    <t t-set="QRmap" t-value="'http://maps.google.com/maps?q=%s,%s' % (o.partner_id.partner_latitude,o.partner_id.partner_longitude)"/>
                     <img class="m-0"  t-att-src="'/report/barcode/?type=%s&amp;value=%s&amp;width=%s&amp;height=%s' % ('QR',QRmap, 120, 120)"/>
                   </div>
                 </t>
