@@ -8,6 +8,7 @@ class res_company(models.Model):
     imagel = fields.Binary(string='Image Left')
     imagem = fields.Binary(string='Image Medium')
     imager = fields.Binary(string='Image Right')
+    imageh = fields.Binary(string='Image Header')
     imagef = fields.Binary(string='Image Footer')
     #default font oviraid
     font = fields.Selection(

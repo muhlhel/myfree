@@ -12,6 +12,7 @@
                          <field name="imagel"  widget='image' class="oe_avatar"/>
                         <field name="imagem"  widget='image' class="oe_avatar"/>
                         <field name="imager" widget='image' class="oe_avatar"/>
+                        <field name="imageh" widget='image' class="oe_avatar"/>
                         <field name="imagef" widget='image' class="oe_avatar"/>
             </field>
             </field>

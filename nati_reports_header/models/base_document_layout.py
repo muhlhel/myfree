@@ -8,6 +8,8 @@ class BaseDocumentLayout(models.TransientModel):
     imagem = fields.Binary(related='company_id.imagem', readonly=False)
     imager = fields.Binary(related='company_id.imager', readonly=False)
     imagef = fields.Binary(related='company_id.imagef', readonly=False)
+    imageh = fields.Binary(related='company_id.imageh', readonly=False)
+
 
 
 
