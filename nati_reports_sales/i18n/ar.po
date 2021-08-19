@@ -4,10 +4,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 14.0+e-20201112\n"
+"Project-Id-Version: Odoo Server 14.0+e-20210603\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-11-17 22:05+0000\n"
-"PO-Revision-Date: 2020-11-19 01:59+0300\n"
+"POT-Creation-Date: 2021-08-17 14:13+0000\n"
+"PO-Revision-Date: 2021-08-17 17:13+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "Language: ar\n"
-"X-Generator: Poedit 1.8\n"
+"X-Generator: Poedit 3.0\n"
 
 #. module: nati_reports_sales
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
@@ -168,6 +168,13 @@ msgid "<strong>TotalGenaralEn</strong>"
 msgstr "<strong>Total</strong>"
 
 #. module: nati_reports_sales
+#: code:addons/nati_reports_sales/models/sale_order.py:0
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order__num_word
+#, python-format
+msgid "Amount In Words:"
+msgstr ""
+
+#. module: nati_reports_sales
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
 msgid "AmountEn"
 msgstr "Amount"
@@ -183,19 +190,39 @@ msgid "Disc.%En"
 msgstr "Disc.%"
 
 #. module: nati_reports_sales
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: nati_reports_sales
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
 msgid "ExpirationEn"
 msgstr "Expiration"
 
 #. module: nati_reports_sales
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: nati_reports_sales
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: nati_reports_sales
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
 msgid "Order #"
-msgstr "الأمر #"
+msgstr "أمر بيع #"
 
 #. module: nati_reports_sales
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
 msgid "Order DateEn"
 msgstr "Order Date"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.nati_view_sales_order_print
+msgid "Print"
+msgstr "طباعة"
 
 #. module: nati_reports_sales
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
@@ -221,6 +248,11 @@ msgstr "Quotation Date"
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
 msgid "ReferenceEn"
 msgstr "Reference"
+
+#. module: nati_reports_sales
+#: model:ir.model,name:nati_reports_sales.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
 
 #. module: nati_reports_sales
 #: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document

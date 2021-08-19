@@ -25,7 +25,16 @@
           </template>
           
 
-          
+           <record id="nati_view_sales_order_print" model="ir.ui.view">
+            <field name="name">nati.sale.order.print.form</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//form//header//button[@name='action_quotation_send']" position="after">
+                     <button name="action_print" string="Print" type="object" class="oe_highlight"/>
+                </xpath>
+            </field>
+        </record>
    
   </data>
 </odoo>
