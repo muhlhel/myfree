@@ -16,7 +16,7 @@
                 </t>
                 <t t-if="env.context.get('proforma', False) or is_pro_forma">
                   <span>Pro-Forma Invoice # </span>
-                  
+
                 </t>
                 <span class="natifont24" t-field="doc.name"/>
                 <t t-if="'print_count' in doc.fields_get()">
@@ -137,6 +137,7 @@
               <t t-set="current_subtotal" t-value="0"/>
 
               <t t-foreach="doc.order_line" t-as="line">
+                <t t-if="line.product_uom_qty">
                 <t  t-set="counter" t-value="counter + 1"/>
 
                 <t t-set="current_subtotal" t-value="current_subtotal + line.price_subtotal" groups="account.group_show_line_subtotals_tax_excluded"/>
@@ -193,6 +194,7 @@
                       <span t-esc="current_subtotal" t-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: doc.pricelist_id.currency_id}"/>
                     </td>
                   </tr>
+                </t>
                 </t>
               </t>
             </tbody>
