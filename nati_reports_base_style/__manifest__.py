@@ -13,7 +13,7 @@ english and arabic lable,for both LTR and RTL
     'author': "Mali, MuhlhelITS",
     'website': "http://natigroup.biz",
     'category': 'Extra Tools',
-    'license': 'AGPL-3',
+    'license': 'OPL-1',
     'version': '14.0.0.0',
     'depends': ['base','nati_arabic_font'],
     'qweb': [],
