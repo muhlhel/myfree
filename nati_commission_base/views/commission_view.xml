@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="commission_lines_tree_view" model="ir.ui.view">
+		<field name="name">commission.lines.tree.view</field>
+		<field name="model">commission.base</field>
+		<field name="arch" type="xml">
+			<tree  sample="1" >
+				<field name="commission_date"/>
+				<field name="sales_partner"/>
+				<field name="commission_type"/>
+				<field name="amount"/>
+				<field name="state"/>
+				<field name="pricelist_id"/>
+				<field name="product_id"/>
+				<field name="comm_rate"/>
+			</tree>
+		</field>
+	</record>
+
+     <record id="commission_lines_form_view" model="ir.ui.view">
+			<field name="name">commission.lines.form.view</field>
+			<field name="model">commission.base</field>
+			<field name="arch" type="xml">
+				<form string="Commission Lines" create="0" edit="0">
+					<header>
+						<field name="state" widget='statusbar'/>
+					</header>
+					<sheet>
+						<group>
+							<group>
+								<field name="sales_partner"/>
+								<field name="commission_date"/>
+								<field name="commission_type"/>
+								<field name="sales_team_id" attrs="{'invisible': [('commission_type','!=', 'team_leader')]}"/>
+								<field name="product_id" attrs="{'invisible': [('commission_type','!=', 'cashier')]}"/>
+							</group>
+							<group>
+								<field name="amount"/>
+								<field name="pricelist_id"/>
+								<field name="comm_rate"/>
+								<field name="qty"  attrs="{'invisible': [('commission_type','!=', 'cashier')]}"/>
+							</group>
+						</group>
+
+					</sheet>
+				</form>
+			</field>
+		</record>
+	<record id="commission_lines_search_view" model="ir.ui.view">
+			<field name="name">commission.base.search.view</field>
+			<field name="model">commission.base</field>
+			<field name="arch" type="xml">
+				<search string="Commission Lines">
+				   <filter name="group_sales_partner" string="Sales Partner" icon="terp-partner" context="{'group_by':'sales_partner'}"/>
+				</search>
+			</field>
+		</record>
+
+        <record model="ir.actions.act_window" id="action_open_commission_lines">
+			<field name="name">Commission Lines</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">commission.base</field>
+			<field name="context">{'search_default_group_sales_partner': 1}</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+
+
+</odoo>

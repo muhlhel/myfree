@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="commission_worksheet_tree_view" model="ir.ui.view">
+			<field name="name">commission.worksheet.tree.view</field>
+			<field name="model">commission.sheet</field>
+			<field name="arch" type="xml">
+				<tree string="Commission Worksheet">
+					<field name="name"/>
+					<field name="sales_partner"/>
+					<field name="start_date"/>
+					<field name="end_date"/>
+				</tree>
+			</field>
+		</record>
+
+		<record id="commission_worksheet_form_view" model="ir.ui.view">
+			<field name="name">commission.worksheet.form.view</field>
+			<field name="model">commission.sheet</field>
+			<field name="arch" type="xml">
+				<form string="Commission Worksheet" >
+					<header>
+						 <button name='create_invoice_commission' type='object' string='Create Invoice' class="btn-primary" attrs="{'invisible': [('state','!=', 'draft')]}" groups = 'sales_team.group_sale_manager' />
+						 <field name="state" widget='statusbar'/>
+					</header>
+					<sheet >
+						<div class="oe_button_box" name="button_box">
+							<button name="action_view_invoice" type="object" class="oe_stat_button" icon="fa-pencil-square-o" attrs="{'invisible': [('invoice_id', '=', False)]}">
+								<span>Bill</span>
+							</button>
+						</div>
+						<div class="oe_title">
+							<h2>
+								<field name="name" readonly="1"/>
+							</h2>
+						</div>
+						<group>
+							<group>
+								<field name="sales_partner"/>
+								<field name="start_date"/>
+								<field name="end_date"/>
+							</group>
+							<group>
+								<field name="company_id"/>
+								<field name="total_commission_amt"/>
+								<field name="invoice_id" invisible='1'/>
+								<field name="commission_paid"/>
+							</group>
+						</group>
+						<notebook>
+							<page string='Commission Lines'>
+								<field name="commission_line_ids" readonly="False">
+									<tree>
+										<field name="commission_date"/>
+										<field name="sales_partner"/>
+										<field name="source"/>
+										<field name="amount"/>
+										<field name="state"/>
+										<field name="commission_id" invisible='1'/>
+									</tree>
+								</field>
+							</page>
+						</notebook>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+	<record model="ir.actions.act_window" id="action_open_commission_worksheet">
+			<field name="name">Commission Worksheet</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">commission.sheet</field>
+			<field name="view_mode">tree,form</field>
+		</record>
+
+</odoo>

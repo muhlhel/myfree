@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <record id="nati_commission_access_groups"  model="ir.module.category" >
+            <field name="name">Commission Access</field>
+            <field name="description">User access level to Commission</field>
+            <field name="sequence">1</field>
+        </record>
+        <record id="nati_group_commission_own" model="res.groups">
+            <field name="name">User:Own Commission only</field>
+            <field name="category_id" ref="nati_commission_access_groups"/>
+            <field name="implied_ids" eval="[(4, ref('base.group_user'))]"/>
+        </record>
+        <record id="nati_group_commission_all" model="res.groups">
+            <field name="name">User:All Commissions</field>
+            <field name="category_id" ref="nati_commission_access_groups"/>
+            <field name="implied_ids" eval="[(4, ref('nati_group_commission_own'))]"/>
+        </record>
+        <record id="nati_group_commission_accountant" model="res.groups">
+            <field name="name">Accountant</field>
+            <field name="category_id" ref="nati_commission_access_groups"/>
+            <field name="implied_ids" eval="[(4, ref('nati_group_commission_all')),(4, ref('nati_group_commission_own'))]"/>
+        </record>
+        <record id="nati_group_commission_manager" model="res.groups">
+            <field name="name">Administrator</field>
+            <field name="category_id" ref="nati_commission_access_groups"/>
+            <field name="implied_ids" eval="[(4, ref('nati_group_commission_accountant')),(4, ref('nati_group_commission_all')),(4, ref('nati_group_commission_own'))]"/>
+            <field name="users" eval="[(4, ref('base.user_root')), (4, ref('base.user_admin'))]"/>
+        </record>
+         <record id="base.group_erp_manager" model="res.groups">
+            <field name="implied_ids" eval="[(4, ref('nati_group_commission_manager'))]"/>
+        </record>
+ <data noupdate="0">
+        <record id="nati_rule_commission_line_own" model="ir.rule" >
+            <field name="name">Commission Line Rule</field>
+            <field name="model_id" ref="nati_commission_base.model_commission_base"/>
+            <field name="domain_force">[('sales_partner', '=', user.partner_id.id)]</field>
+             <field name="groups" eval="[(4, ref('nati_commission_base.nati_group_commission_own'))]"/>
+        </record>
+<record id="nati_rule_commission_line_all" model="ir.rule" >
+            <field name="name">Commission Line Rule</field>
+            <field name="model_id" ref="nati_commission_base.model_commission_base"/>
+            <field name="domain_force">[(1,'=',1)]</field>
+             <field name="groups" eval="[(4, ref('nati_commission_base.nati_group_commission_manager')),
+             (4, ref('nati_commission_base.nati_group_commission_accountant')),
+             (4, ref('nati_commission_base.nati_group_commission_all'))]"/>
+        </record>
+ </data>
+
+
+</odoo>

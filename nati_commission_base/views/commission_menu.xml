@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <!-- Top menu item -->
+        <menuitem id="commission_menu_root"
+                  name="Commission"
+                  web_icon="nati_commission_base,static/description/icon.png"
+                  sequence="1"/>
+
+        <menuitem id="commissions_menu"
+                  name="Commissions"
+                  parent="commission_menu_root"
+                  sequence="2"/>
+
+        <menuitem id="commission_sales_man"
+                  name="Commission List"
+                  parent="commissions_menu"
+                  action="action_open_commission_lines"
+                  groups="nati_commission_base.nati_group_commission_own"
+                  sequence="1"/>
+
+
+        <menuitem id="commission_menu_worksheet"
+                  name="Worksheet"
+                  parent="commission_menu_root"
+                  sequence="5"
+                  groups="nati_commission_base.nati_group_commission_accountant"/>
+
+       <menuitem id="commission_worksheet_all"
+                  name="All Commission Sheet"
+                  parent="commission_menu_worksheet"
+                  action="action_open_commission_worksheet"
+                  groups="nati_commission_base.nati_group_commission_accountant"
+                  sequence="1"/>
+
+        <menuitem id="commission_menu_report"
+                  name="Reporting"
+                  parent="commission_menu_root"
+                  sequence="6"
+                  groups="nati_commission_base.nati_group_commission_manager"/>
+
+        <menuitem id="menu_report_sale_all"
+                  name="Sales Man"
+                  parent="commission_menu_report"
+                  action="action_open_commission_lines"
+                  sequence="1"/>
+
+        <menuitem id="commission_menu_config"
+                  name="Configuration"
+                  parent="commission_menu_root"
+                  sequence="7"
+                  groups="nati_commission_base.nati_group_commission_manager"/>
+
+        <menuitem id="commission_type_config"
+                  name="Settings"
+                  parent="commission_menu_config"
+                  action="configuration_action"
+                  sequence="1000"/>
+
+
+
+</odoo>

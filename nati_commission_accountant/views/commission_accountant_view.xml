@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+	<odoo>
+
+		<record id="view_accountant_person_config_form" model="ir.ui.view">
+			<field name="name">accountant.person.commission.config.form</field>
+			<field name="model">accountant.person.commission</field>
+			<field name="arch" type="xml">
+				<form >
+					<sheet>
+						<group>
+							<field name="name"/>
+						</group>
+						<field name= "commission_ids" nolabel="1" >
+							<tree string="commission items" editable="bottom">
+								<field name="start_qty"/>
+								<field name="end_qty"/>
+								<field name="ratio"/>
+							</tree>
+						</field>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<record id="action_accountant_person_config" model="ir.actions.act_window">
+			<field name="name">Accountant Commission</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">accountant.person.commission</field>
+			<field name="view_mode">form</field>
+		</record>
+
+		<menuitem id="menu_sale_accountant_per_config"
+				  name="Accountant Commission"
+				  parent="nati_commission_base.commission_menu_config"
+				  action="action_accountant_person_config"
+				  sequence="2"/>
+		
+
+</odoo>

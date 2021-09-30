@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+<record id="rea_partner_inherited_for_market_commission" model="ir.ui.view">
+		<field name="name">res.partner.inherited.market.commission</field>
+		<field name="model">res.partner</field>
+		<field name="inherit_id" ref="base.view_partner_form"/>
+		<field name="arch" type="xml">
+			 <group name="Commission Base" position="inside">
+				 <group name="Marketing Commission" string="Marketing Commission">
+					 <field name="is_marketing"/>
+					 <field name="marketing_per_id"/>
+				 </group>
+			 </group>
+		</field>
+	</record>
+
+</odoo>

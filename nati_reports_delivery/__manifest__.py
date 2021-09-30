@@ -11,7 +11,7 @@ for example: line numbers, numbers in words, compatibility with different printi
 english and arabic lable,for both LTR and RTL
     """,
     'author': "Mali, MuhlhelITS",
-    'website': "http://natigroup.biz",
+    'website': "http://muhlhel.com",
     'license': 'AGPL-3',
     'category': 'Inventory',
     'version': '14.0.0.0',

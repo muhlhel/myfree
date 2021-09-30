@@ -10,7 +10,7 @@
  ,
     """,
     'author': "Mali, MuhlhelITS",
-    'website': "http://natigroup.biz",
+    'website': "http://muhlhel.com",
     'category': 'Localization',
     'version': '14.0.0.0',
     'depends': ['web'],

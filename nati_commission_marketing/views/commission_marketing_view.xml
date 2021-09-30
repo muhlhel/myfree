@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+	<odoo>
+
+		<record id="view_market_person_config_form" model="ir.ui.view">
+			<field name="name">market.person.commission.config.form</field>
+			<field name="model">market.person.commission</field>
+			<field name="arch" type="xml">
+				<form >
+					<sheet>
+						<group>
+							<field name="name"/>
+						</group>
+						<field name= "commission_ids" nolabel="1" >
+							<tree string="commission items" editable="bottom">
+								<field name="start_qty"/>
+								<field name="end_qty"/>
+								<field name="ratio"/>
+							</tree>
+						</field>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<record id="action_market_person_config" model="ir.actions.act_window">
+			<field name="name">Marketing Commission</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">market.person.commission</field>
+			<field name="view_mode">form</field>
+		</record>
+
+		<menuitem id="menu_sale_market_per_config"
+				  name="Marketing Commission"
+				  parent="nati_commission_base.commission_menu_config"
+				  action="action_market_person_config"
+				  sequence="2"/>
+		
+
+</odoo>

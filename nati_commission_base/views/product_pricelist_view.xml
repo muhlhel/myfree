@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	<record id="product_pricelist_view_inhetired_retail_wholesale" model="ir.ui.view">
+		<field name="name">product.pricelist.view.inherited</field>
+		<field name="model">product.pricelist</field>
+		<field name="inherit_id" ref="product.product_pricelist_view"/>
+		<field name="arch" type="xml">
+			<!-- <xpath expr="//field[@name='currency_id']" position="after">
+				<field name="commission_for" widget="radio"/>
+			</xpath> -->
+			<xpath expr="//notebook" position="inside">
+				<page name="retail_wholesale_configuration" string="Commission Configuration">
+					<field name= "commission_ids" >
+						<tree string="commission items" editable="bottom">
+							<field name="sequence" widget="handle"/>
+							<field name='based_on' required="1"/>
+							<field name='comm_product_ids' attrs="{
+								'invisible': [('based_on','!=', 'product')],
+								'required': [('based_on','=', 'product')]}"
+								widget='many2many_tags'/>
+							<field name='comm_product_categ_ids' attrs="{
+								'invisible': [('based_on','!=', 'categ')],
+								'required': [('based_on','=', 'categ')]}"
+								widget='many2many_tags'/>
+							<field name="start_qty"/>
+							<field name="end_qty"/>
+							<field name="ratio"/>
+						</tree>
+					</field>
+				</page>
+			</xpath>
+
+		</field>
+	</record>
+    <menuitem
+                id="menu_commission_pricelist"
+                action="product.product_pricelist_action2"
+				parent="nati_commission_base.commission_menu_config"
+				groups="product.group_product_pricelist"
+				name="Pricelists Commission"
+                sequence="1"
+        />
+
+
+</odoo>

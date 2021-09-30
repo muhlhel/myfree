@@ -4,7 +4,7 @@
     'name': 'Jordan Chart of Accounts standard',
     'version': '13.0.0.0',
     'author': "Mali, MuhlhelITS",
-    'website': "http://natigroup.biz",
+    'website': "http://muhlhel.com",
     'category': 'Localization',
     'description': """
      Arabic localization for most arabic countries.

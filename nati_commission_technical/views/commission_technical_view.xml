@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+	<odoo>
+
+		<record id="view_tech_person_config_form" model="ir.ui.view">
+			<field name="name">tech.person.commission.config.form</field>
+			<field name="model">tech.person.commission</field>
+			<field name="arch" type="xml">
+				<form >
+					<sheet>
+						<group>
+							<field name="name"/>
+						</group>
+						<field name= "commission_ids" nolabel="1" >
+							<tree string="commission items" editable="bottom">
+								<field name="start_qty"/>
+								<field name="end_qty"/>
+								<field name="ratio"/>
+							</tree>
+						</field>
+					</sheet>
+				</form>
+			</field>
+		</record>
+
+		<record id="action_tech_person_config" model="ir.actions.act_window">
+			<field name="name">Technical Commission</field>
+			<field name="type">ir.actions.act_window</field>
+			<field name="res_model">tech.person.commission</field>
+			<field name="view_mode">form</field>
+		</record>
+
+		<menuitem id="menu_sale_tech_per_config"
+				  name="Technical Commission"
+				  parent="nati_commission_base.commission_menu_config"
+				  action="action_tech_person_config"
+				  sequence="2"/>
+		
+
+</odoo>

@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_commission_base,commission.base,model_commission_base,base.group_user,1,1,1,1
+access_commission_details,commission.details,model_commission_details,base.group_user,1,1,1,1
+access_create_commission_wiz,create.commission.wiz,model_create_commission_wiz,base.group_user,1,1,1,1
+access_market_person_commission,market.person.commission,model_market_person_commission,base.group_user,1,1,1,1

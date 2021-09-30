@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo>
+<record id="rea_partner_inherited_commission_base" model="ir.ui.view">
+		<field name="name">res.partner.inherited.tech.commission</field>
+		<field name="model">res.partner</field>
+		<field name="inherit_id" ref="base.view_partner_form"/>
+		<field name="arch" type="xml">
+			 <page name="internal_notes" position="after">
+				 <page name="Commission Settings" string="Commission Settings">
+					 <group name="Commission Base">
+						 <h1>
+				           <field name="commission"/>
+						 </h1>
+					 </group>
+				 </page>
+			</page>
+		</field>
+	</record>
+
+</odoo>

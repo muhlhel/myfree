@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+	<record id="crm_team_view_form_inherit" model="ir.ui.view">
+		<field name="name">crm.team.view.inherited</field>
+		<field name="model">crm.team</field>
+		<field name="inherit_id" ref="sales_team.crm_team_view_form"/>
+		<field name="arch" type="xml">
+			<xpath expr="//notebook" position="inside">
+				<page name="commission_configuration" string="Commission Configuration">
+					<field name= "commission_ids" >
+						<tree string="commission items" editable="bottom">
+							<field name="sequence" widget="handle"/>
+							<field name="start_qty"/>
+							<field name="end_qty"/>
+							<field name="ratio"/>
+						</tree>
+					</field>
+				</page>
+			</xpath>
+
+		</field>
+	</record>
+
+       <menuitem
+                id="menu_commission_crm_team"
+                action="sales_team.sales_team_config_action"
+				parent="nati_commission_base.commission_menu_config"
+				groups="sales_team.group_sale_salesman"
+				name="Sales Teams Commission"
+                sequence="2"
+        />
+	<record id="account_payment_view_form_inherit" model="ir.ui.view">
+		<field name="name">account.payment.form.view.inherited</field>
+		<field name="model">account.payment</field>
+		<field name="inherit_id" ref="account.view_account_payment_form"/>
+		<field name="arch" type="xml">
+			<field name= "date" position="after">
+				<field name="sale_ref" widget="many2many_tags"/>
+			</field>
+		</field>
+	</record>
+
+</odoo>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<record id="action_market_commission" model="ir.actions.act_window">
+		<field name="name">Marketing Person</field>
+		<field name="type">ir.actions.act_window</field>
+		<field name="res_model">res.partner</field>
+		<field name="view_mode">tree,form</field>
+		<field name="domain">[('is_marketing', '=', True)]</field>
+		<field name="context">{'default_is_marketing':True}</field>
+		<field name="search_view_id" ref="base.view_res_partner_filter"/>
+		<field name="help" type="html">
+		  <p class="o_view_nocontent_smiling_face">
+			Create a new Marketing Person in your address book
+		  </p><p>
+			Nati helps you easily track all activities related to a Marketing Person.
+		  </p>
+		</field>
+	</record>
+
+	<menuitem id="menu_pos_market_per"
+			  name="List Marketing Person"
+			  parent="nati_commission_base.commission_menu_config"
+			  action="action_market_commission"
+			  sequence="101"/>
+</odoo>
