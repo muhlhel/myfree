@@ -11,6 +11,7 @@
 
     'author': "Mali, MuhlhelITS",
     'website': "http://muhlhel.com",
+    'license': 'LGPL-3',
     'version': '14.0.0.0',
     # Categories can be used to filter modules in modules listing
     # for the full list

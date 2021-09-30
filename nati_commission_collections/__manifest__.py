@@ -11,6 +11,7 @@
 	'author': "Mali, MuhlhelITS",
     'website': "http://muhlhel.com",
     'version': '14.0.0.0',
+	'license': 'LGPL-3',
 	'category': 'Accounting/Accounting',
 
 	# any module necessary for this one to work correctly

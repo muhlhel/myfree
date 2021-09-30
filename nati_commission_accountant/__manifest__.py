@@ -10,7 +10,7 @@
     'website': "http://muhlhel.com",
     'version': '14.0.0.0',
 	'category': 'Accounting/Accounting',
-
+	'license': 'LGPL-3',
 	"depends" : ['base','sale','nati_commission_base'],
 	"data": [
 		'security/ir.model.access.csv',
