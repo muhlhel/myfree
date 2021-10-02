@@ -5,8 +5,6 @@ from odoo import api, fields, models,tools, _
 from odoo.exceptions import UserError, ValidationError
 from collections import Counter 
 
-
-
 class AccountantPersionCom(models.Model):
 	_name = 'accountant.person.commission'
 	_description = 'Accountant Commission'
