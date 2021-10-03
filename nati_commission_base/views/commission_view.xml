@@ -33,13 +33,13 @@
 								<field name="commission_date"/>
 								<field name="commission_type"/>
 								<field name="sales_team_id" attrs="{'invisible': [('commission_type','!=', 'team_leader')]}"/>
-								<field name="product_id" attrs="{'invisible': [('commission_type','!=', 'cashier')]}"/>
+								<field name="product_id" attrs="{'invisible': [('commission_type','!=', 'products')]}"/>
 							</group>
 							<group>
 								<field name="amount"/>
 								<field name="pricelist_id"/>
 								<field name="comm_rate"/>
-								<field name="qty"  attrs="{'invisible': [('commission_type','!=', 'cashier')]}"/>
+								<field name="qty"  attrs="{'invisible': [('commission_type','!=', 'products')]}"/>
 							</group>
 						</group>
 
