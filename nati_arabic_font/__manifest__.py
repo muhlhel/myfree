@@ -15,10 +15,24 @@
     'version': '14.0.0.0',
     'depends': ['web'],
     'qweb': [],
-    'data': ['views/linkestatic.xml',   
-    ],
+
     'images': ['static/description/banner.png'],
     'license': 'LGPL-3',
     'auto_install': True,
     'installable': True,
+    'assets': {
+        'web.assets_common': [
+            'nati_arabic_font/static/src/scss/almaraifont.scss',
+            'nati_arabic_font/static/src/scss/cairofont.scss',
+            'nati_arabic_font/static/src/scss/droidfont.scss',
+            'nati_arabic_font/static/src/css/web_style.css',
+        ],
+        'report_assets_common': [
+            'nati_arabic_font/static/src/scss/almaraifont.scss',
+            'nati_arabic_font/static/src/scss/cairofont.scss',
+            'nati_arabic_font/static/src/scss/droidfont.scss',
+        ],
+
+
+    },
 }
