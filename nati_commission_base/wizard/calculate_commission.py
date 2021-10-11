@@ -33,7 +33,7 @@ class CalculateCommissionBase(models.TransientModel):
         today = datetime.now().date()
         if (not worksheet_account_id) or (not commission_sheet_type) or (not comm_cal_on):
             raise ValidationError(
-                _("Please Do Commission Configuration under Commission -> Configuration -> Settings."))
+                _("Please set General Configuration From Commissions -> Configuration -> Settings."))
 
         start = False
         end = False
