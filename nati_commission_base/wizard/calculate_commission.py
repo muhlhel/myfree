@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-# Part of BrowseInfo. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta, date, datetime
 from odoo import api, fields, models, tools, _
@@ -33,7 +32,7 @@ class CalculateCommissionBase(models.TransientModel):
         today = datetime.now().date()
         if (not worksheet_account_id) or (not commission_sheet_type) or (not comm_cal_on):
             raise ValidationError(
-                _("Please set General Configuration From Commissions -> Configuration -> Settings."))
+                _("Please Set General Configuration From Commissions -> Configuration -> Settings."))
 
         start = False
         end = False
