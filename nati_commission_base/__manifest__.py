@@ -40,4 +40,6 @@
     'application': True,
     'images': ['static/description/banner.png'],
     'installable': True,
+    'live_test_url': 'https://www.youtube.com/watch?v=QUAql-_TSNo&t=1s',
+
 }

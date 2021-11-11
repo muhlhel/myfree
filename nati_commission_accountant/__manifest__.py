@@ -22,4 +22,6 @@
 
 	'images': ['static/description/banner.png'],
 	'installable': True,
+	'live_test_url': 'https://youtu.be/f8lSpE-dnb0',
+
 }
