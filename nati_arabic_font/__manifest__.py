@@ -27,7 +27,7 @@
             'nati_arabic_font/static/src/scss/droidfont.scss',
             'nati_arabic_font/static/src/css/web_style.css',
         ],
-        'report_assets_common': [
+        'web.report_assets_common': [
             'nati_arabic_font/static/src/scss/almaraifont.scss',
             'nati_arabic_font/static/src/scss/cairofont.scss',
             'nati_arabic_font/static/src/scss/droidfont.scss',
