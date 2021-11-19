@@ -1,0 +1,275 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nati_reports_sales
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20210603\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-17 14:13+0000\n"
+"PO-Revision-Date: 2021-08-17 17:13+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "&amp;nbsp;<span>on</span>&amp;nbsp;"
+msgstr "&amp;nbsp;<span>في</span>&amp;nbsp;"
+
+#. module: nati_reports_sales
+#: model:ir.actions.report,print_report_name:nati_reports_sales.custom_action_report_SO
+msgid ""
+"(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or "
+"'Order - %s' % (object.name)"
+msgstr ""
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</"
+"span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded"
+"\">المـبــلـــغ</span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_included\">Total "
+"Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_included\">الاجمالي</"
+"span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<span>Description</span>"
+msgstr "<span>الوصف</span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<span>Disc.%</span>"
+msgstr "<span>خصم.%</span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<span>Pro-Forma Invoice # </span>"
+msgstr "<span>فاتورة مبدئية # </span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<span>Quantity</span>"
+msgstr "<span>الكمية</span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<span>Taxes</span>"
+msgstr "<span>الضرائب</span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<span>Unit Price</span>"
+msgstr "<span>سعر الوحدة</span>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">الإجمالي الفرعي</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Discount</strong>"
+msgstr "<strong>الخصم</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>DiscountEN</strong>"
+msgstr "<strong>Discount</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Expiration:</strong>"
+msgstr "<strong>الانتهـــاء:</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr "<strong>الوضع المالي:</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Order Date:</strong>"
+msgstr "<strong>تاريخ الأمر:</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Quotation Date:</strong>"
+msgstr "<strong>تاريخ عرض السعر: </strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>رقم الإشارة:</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Salesperson:</strong>"
+msgstr "<strong>موظف المبيعات:</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Signature</strong>"
+msgstr "<strong>التوقيع</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>SubtotalEN</strong>"
+msgstr "<strong>Subtotal</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>SubtotalTax</strong>"
+msgstr "<strong>الاجمالي قبل الضريبة</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>SubtotalTaxEN</strong>"
+msgstr "<strong>Subtotal</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>TaxesEn</strong>"
+msgstr "<strong>Taxes  </strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Total Amount</strong>"
+msgstr "<strong>المبلغ الاجمالي</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>Total AmountEn</strong>"
+msgstr "<strong>Total Amount</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>TotalGenaral</strong>"
+msgstr "<strong>الاجمالي العام</strong>"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "<strong>TotalGenaralEn</strong>"
+msgstr "<strong>Total</strong>"
+
+#. module: nati_reports_sales
+#: code:addons/nati_reports_sales/models/sale_order.py:0
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order__num_word
+#, python-format
+msgid "Amount In Words:"
+msgstr ""
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "AmountEn"
+msgstr "Amount"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "DescriptionEn"
+msgstr "Description"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "Disc.%En"
+msgstr "Disc.%"
+
+#. module: nati_reports_sales
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "ExpirationEn"
+msgstr "Expiration"
+
+#. module: nati_reports_sales
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: nati_reports_sales
+#: model:ir.model.fields,field_description:nati_reports_sales.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "Order #"
+msgstr "أمر بيع #"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "Order DateEn"
+msgstr "Order Date"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.nati_view_sales_order_print
+msgid "Print"
+msgstr "طباعة"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "QuantityEn"
+msgstr "Quantity"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "Quotation #"
+msgstr "عرض سعر #"
+
+#. module: nati_reports_sales
+#: model:ir.actions.report,name:nati_reports_sales.custom_action_report_SO
+msgid "Quotation / Order modern"
+msgstr "عرض سعر/امر بيع  حديث"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "Quotation DateEn"
+msgstr "Quotation Date"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "ReferenceEn"
+msgstr "Reference"
+
+#. module: nati_reports_sales
+#: model:ir.model,name:nati_reports_sales.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "SalespersonEn"
+msgstr "Salesperson"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "TaxesEn"
+msgstr "Taxes"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "Total PriceEn"
+msgstr "Total Price"
+
+#. module: nati_reports_sales
+#: model_terms:ir.ui.view,arch_db:nati_reports_sales.modern_report_SO_document
+msgid "Unit PriceEn"
+msgstr "Unit Price"
