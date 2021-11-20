@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="modern_report_payment_receipt_document">
+    <t t-call="web.external_layout">
+      <t t-set="o" t-value="o.with_context(lang=lang)"/>
+      <div class="page natifont">
+        <h2>
+          <span t-if="o.payment_type=='outbound'">Payment Receipt-Send :</span>
+          <span t-if="o.payment_type=='inbound'">Payment Receipt-Receive :</span>
+          <span t-if="o.payment_type=='transfer'">Payment Receipt-transfer :</span>
+          <span t-field="o.name" class="natifont16"/>
+        </h2>
+        <div class="row natifont" >
+          <div class="col-12" style="border:solid;border-width:0px;">
+            <div class="row mt32 mb32 natifont" >
+
+              <div  t-if="o.date" class="ml-2">
+                <span class="fa fa-calendar"/>
+                <sp>&#032;</sp>
+                <strong>Payment Date:</strong>
+                <p class="m-0 borderB">Payment DateEn</p>
+                <p class="m-0 naticenter" t-field="o.date"/>
+
+              </div>
+
+              <div  class="ml-2" t-if="o.journal_id">
+                <span class="fa fa-calculator"/>
+                <sp>&#032;</sp>
+                <strong >Payment Method:</strong>
+                <p class="m-0 borderB">Payment MethodEn</p>
+                <p  class="m-0 naticenter" t-field="o.journal_id"/>
+              </div>
+
+
+              <div class="col-1" />
+
+
+              <div class="col-5" t-if="o.partner_type">
+                <strong t-if="o.payment_type=='outbound'">Send To:</strong>
+                <strong t-if="o.payment_type=='inbound'">Receipt From:</strong>
+                <p  t-field="o.partner_id"/>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <br/>
+
+        <div t-if="o.amount" class="row natifont" style="border:solid;border-width:1px;">
+          <div class="col-12" >
+            <div class="row mt32 mb32 natifont" style="vertical-align: middle">
+
+              <div  class="col-3">
+                <span class="fa fa-receipt"/>
+                <sp>&#032;</sp>
+                <strong>Payment Amount:</strong>
+                <strong>
+                  <p>
+                    <span class="fa fa-receipt"/>
+                    <sp>&#032;</sp>Payment AmountEn:
+                  </p>
+                </strong>
+              </div>
+
+              <div class="col-3">
+                <strong t-field="o.amount" t-options="{'widget': 'monetary', 'display_currency': o.currency_id}"/>
+              </div>
+              <t t-if="'num_word' in o.fields_get()">
+              <div class="col-6" >
+                <span t-field="o.num_word" />
+              </div>
+              </t>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <div t-if="o.ref" class="row natifont" style="border:solid;border-width:1px;">
+          <div class="col-12" >
+            <div class="row mt32 mb32 natifont" >
+
+              <div  class="col-3">
+                <span class="fa fa-list-alt"/>
+                <sp>&#032;</sp>
+                <strong>Memo:</strong>
+                <strong>
+                  <p>
+                    <span class="fa fa-list-alt"/>
+                    <sp>&#032;</sp>MemoEn:
+                  </p>
+                </strong>
+              </div>
+
+              <div class="col-9" style="vertical-align: middle">
+                <p  t-field="o.ref"/>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <br/>
+
+        <t t-if="o.reconciled_bills_count or o.reconciled_invoices_count or o.reconciled_statements_count">
+
+          <table class="table table-sm">
+            <thead>
+              <tr class="natiinvoice_header">
+                <th class="natiinvoice_header" >
+                  <span class="fa fa-list-ol natiinvoice_header"/>
+                  <sp>&#032;</sp>
+                </th>
+                <th class="text-left">
+                  <span>Invoice Date</span>
+                  <p>Invoice DateEn</p>
+                </th>
+                <th class="text-left">
+                  <span>Invoice Number</span>
+                  <p>Invoice NumberEn</p>
+                </th>
+
+                <th class="text-right">
+                  <span>Original Amount</span>
+                  <p>Original AmountEn</p>
+                </th>
+                <th class="text-right">
+                  <span>Amount Paid</span>
+                  <p>Amount PaidEn</p>
+                </th>
+                <th class="text-right">
+                  <span>Balance</span>
+                  <p>BalanceEn</p>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <t t-set="counter" t-value="0"/>
+
+                <tr t-foreach="o.move_id._get_reconciled_invoices_partials()" t-as="rec">
+                  <t t-set="amount" t-value="rec[1]"/>
+                  <t t-set="inv" t-value="rec[2].move_id"/>
+                <t  t-set="counter" t-value="counter + 1"/>
+                <td  >
+                  <span t-esc="counter"/>
+                </td>
+                <td>
+                  <span t-field="inv.invoice_date"/>
+                </td>
+                <td>
+                  <span t-field="inv.name"/>
+                </td>
+
+                <td class="text-right">
+                  <span t-field="inv.amount_total"/>
+                </td>
+                <td class="text-right">
+                  <span t-esc="amount" t-options="{'widget': 'monetary', 'display_currency': inv.currency_id}"/>
+                </td>
+
+                <td class="text-right">
+                  <span t-field="inv.amount_residual"/>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </t>
+      </div>
+    </t>
+  </template>
+</odoo>

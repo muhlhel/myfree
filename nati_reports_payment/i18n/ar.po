@@ -1,0 +1,143 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* nati_reports_payment
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e-20201112\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-18 04:24+0000\n"
+"PO-Revision-Date: 2020-11-18 07:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: ar\n"
+"X-Generator: Poedit 1.8\n"
+
+#. module: nati_reports_payment
+#: model:ir.actions.report,print_report_name:nati_reports_payment.custom_action_report_payment_receipt
+msgid "'payment Slip - %s - %s' % (object.partner_id.name or '', object.name)"
+msgstr "'قسيمة الدفع - %s - %s ' % (object.partner_id.name أو '''، object.name)"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<span>Amount Paid</span>"
+msgstr "<span>المبلغ المدفوع</span>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<span>Balance</span>"
+msgstr "<span>الرصيد</span>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<span>Invoice Date</span>"
+msgstr "<span>تاريخ الفاتورة</span>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<span>Invoice Number</span>"
+msgstr "<span>رقم الفاتورة</span>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<span>Original Amount</span>"
+msgstr "<span>المبلغ الأصلي</span>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<strong>Memo:</strong>"
+msgstr "<strong>البيـــــان:</strong>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<strong>Payment Amount:</strong>"
+msgstr "<strong>مبـلــــــــغ و قـــــــــدرة:</strong>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<strong>Payment Date:</strong>"
+msgstr "<strong>التـــــــــاريـــخ:</strong>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "<strong>Payment Method:</strong>"
+msgstr "<strong>طريقــــة الدفـــع :</strong>"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Amount PaidEn"
+msgstr "Amount Paid"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "BalanceEn"
+msgstr "Balance"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Invoice DateEn"
+msgstr "Invoice Date"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Invoice NumberEn"
+msgstr "Invoice Number"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "MemoEn:"
+msgstr "Memo:"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Original AmountEn"
+msgstr "Original Amount"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Payment AmountEn:"
+msgstr "Payment Amount:"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Payment DateEn"
+msgstr "Payment Date"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Payment MethodEn"
+msgstr "Payment Method"
+
+#. module: nati_reports_payment
+#: model:ir.actions.report,name:nati_reports_payment.custom_action_report_payment_receipt
+msgid "Payment Receipt Modern"
+msgstr "سند صرف/قبض"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Payment Receipt-Receive :"
+msgstr "سند قبض"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Payment Receipt-Send :"
+msgstr "سند صرف"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Payment Receipt-transfer :"
+msgstr "امر تحويل"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Receipt From:"
+msgstr "استـلمنـــا مـــن :"
+
+#. module: nati_reports_payment
+#: model_terms:ir.ui.view,arch_db:nati_reports_payment.modern_report_payment_receipt_document
+msgid "Send To:"
+msgstr "اصـرفــوا إلــى :"
