@@ -275,6 +275,7 @@
                       </tr>
                     </t>
                   </t>
+
                   <tr class="border-black o_total">
                     <td class="text-left borderB" name="td_amount_total_label">
                       <strong>TotalGenaral</strong>
