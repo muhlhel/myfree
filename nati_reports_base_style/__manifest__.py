@@ -14,7 +14,7 @@ english and arabic lable,for both LTR and RTL
     'website': "http://muhlhel.com",
     'category': 'Extra Tools',
     'license': 'LGPL-3',
-    'version': '14.0.0.0',
+    'version': '15.0.0.0',
     'depends': ['base','nati_arabic_font'],
     'qweb': [],
     'data': ['views/main_inherit.xml',

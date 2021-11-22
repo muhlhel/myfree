@@ -2,7 +2,7 @@
 
 {
     'name': 'Saudi Arabia Chart of Accounts standard',
-    'version': '13.0.0.0',
+    'version': '15.0.0.0',
     'author': "Mali, MuhlhelITS",
     'website': "http://muhlhel.com",
     'category': 'Localization',
