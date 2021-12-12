@@ -3,7 +3,7 @@
     'name': "K.S.A - Invoice",
 
     'summary': """
-        Redesign of the Invoice, keeping the official and modern look """,
+        الفاتورة الالكترونية """,
 
     'description': """
 Many modern designs and shapes, with additional features, 
@@ -23,4 +23,7 @@ english and arabic lable,for both LTR and RTL
     'images': ['static/description/banner.png'],
     'auto_install': False,
     'installable': True,
+    'live_test_url': 'https://youtu.be/nApyIVAg7kc',
+
+
 }
