@@ -25,4 +25,7 @@ english and arabic lable,for both LTR and RTL
     'images': ['static/description/banner.png'],
     'auto_install': False,
     'installable': True,
+    'live_test_url': 'https://youtu.be/FBInHHij18Q',
+
 }
+
