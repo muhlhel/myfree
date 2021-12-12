@@ -22,12 +22,12 @@ english and arabic lable,for both LTR and RTL
     ],
     'images': ['static/description/banner.png'],
     'installable': True,
+    'live_test_url': 'https://youtu.be/Ayy81m38QP8',
     'assets': {
         'web.report_assets_common': [
             'nati_reports_base_style/static/src/scss/variables.scss',
             'nati_reports_base_style/static/src/scss/invoice_style.scss',
         ],
     }
-    'live_test_url': 'https://youtu.be/Ayy81m38QP8',
 
 }
