@@ -21,4 +21,6 @@
     'license': 'LGPL-3',
     'auto_install': True,
     'installable': True,
+    'live_test_url': 'https://youtu.be/aR3ZmDu8OjI',
+
 }
