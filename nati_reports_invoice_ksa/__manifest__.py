@@ -1,6 +1,6 @@
  # -*- coding: utf-8 -*-
 {
-    'name': "K.S.A - Invoice",
+    'name': "K.S.A - E-Invoice",
 
     'summary': """
         الفاتورة الالكترونية """,
