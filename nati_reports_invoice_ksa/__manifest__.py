@@ -13,7 +13,7 @@ english and arabic lable,for both LTR and RTL
     'author': "Mali, MuhlhelITS",
     'website': "http://muhlhel.com",
     'license': 'AGPL-3',
-    'version': '15.0.0.0',
+    'version': '1.16',
     'depends': ['account','nati_reports_base_style'],
     'qweb': [],
     'data': ['views/main_inherit.xml',

@@ -2,7 +2,7 @@
 
 {
     'name': 'Yemen Chart of Accounts standard',
-    'version': '15.0.0.0',
+    'version': '1.16',
     'author': "Mali, MuhlhelITS",
     'website': "http://muhlhel.com",
     'category': 'Localization',

@@ -14,7 +14,7 @@ english and arabic lable,for both LTR and RTL
     'website': "http://muhlhel.com",
     'license': 'AGPL-3',
     'category': 'Accounting',
-    'version': '15.0.0.0',
+    'version': '1.16',
     'depends': ['account','nati_reports_base_style'],
     'qweb': [],
     'data': ['views/main_inherit.xml',

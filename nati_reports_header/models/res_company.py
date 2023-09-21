@@ -11,8 +11,8 @@ class res_company(models.Model):
     imageh = fields.Binary(string='Image Header')
     imagef = fields.Binary(string='Image Footer')
     #default font oviraid
-    font = fields.Selection(
-        [("Lato", "Lato"), ("Roboto", "Roboto"), ("Open_Sans", "Open Sans"), ("Montserrat", "Montserrat"),
-         ("Oswald", "Oswald"), ("Raleway", "Raleway"),("Almarai", "Almarai"),
-         ("Droid Arabic Naskh", "Droid Arabic Naskh"),
-         ("Droid Arabic Kufi", "Droid Arabic Kufi"), ("Cairo", "Cairo"),], default="Almarai")
+    font = fields.Selection([("Lato", "Lato"), ("Roboto", "Roboto"), ("Open_Sans", "Open Sans"), ("Montserrat", "Montserrat"),
+                             ("Oswald", "Oswald"), ("Raleway", "Raleway"), ('Tajawal', 'Tajawal'),("Almarai", "Almarai"),
+                             ("Droid Arabic Naskh", "Droid Arabic Naskh"),
+                             ("Droid Arabic Kufi", "Droid Arabic Kufi"), ("Cairo", "Cairo"),], default="Almarai")
+
