@@ -23,7 +23,7 @@
     'live_test_url': 'https://youtu.be/aR3ZmDu8OjI',
 
     'assets': {
-        'web.assets_common': [
+        'web.assets_backend': [
             'nati_arabic_font/static/src/scss/almaraifont.scss',
             'nati_arabic_font/static/src/scss/cairofont.scss',
             'nati_arabic_font/static/src/scss/droidfont.scss',
