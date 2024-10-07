@@ -1,12 +1,15 @@
 
 body  {
-    font-family: almarai !important;
+    font-family: alma !important;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-	font-family: almarai !important;
+	font-family: cairo !important;
 
 }
 #oe_main_menu_navbar,.nav-link {
-	font-family: almarai !important;	
+	font-family: cairo !important;
+}
+.o-dropdown--menu {
+font-family: cairo !important;
 }
