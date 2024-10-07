@@ -1,6 +1,6 @@
 
 body  {
-    font-family: alma !important;
+    font-family: cairo !important;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -12,4 +12,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .o-dropdown--menu {
 font-family: cairo !important;
+}
+.o_hr_referral, .user_info{
+font-family: cairo !important;
+
 }
